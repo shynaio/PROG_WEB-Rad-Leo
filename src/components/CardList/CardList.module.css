@@ -1,0 +1,12 @@
+.cardList {
+    width: 100%;
+
+    background-color: inherit;
+
+    padding: 1rem;
+    box-sizing: border-box;
+
+    display: grid;
+    grid-template-columns: var(--pokedex-grid-col-auto-fill);
+    gap: 1rem;
+}

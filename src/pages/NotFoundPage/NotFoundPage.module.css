@@ -1,0 +1,45 @@
+.pageContainer {
+    width: 100%;
+    height: calc(100vh - 4rem);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 4rem;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+@keyframes float {
+    from { transform: translateY(0px) }
+    to { transform: translateY(-10px) }
+}
+
+.cardImageContainer > img {
+    width: 10vw;
+    animation: float 1.3s ease-in-out infinite alternate;
+}
+
+@keyframes lighten {
+    from { background-color: rgba(0, 0, 0, 0.3); }
+    to { background-color: rgba(0, 0, 0, 0.1); }
+}
+
+.shadow {
+    content: '';
+    padding: .5rem;
+
+    animation: lighten 1.3s ease-in-out infinite alternate;
+    border-radius: 100%;
+    filter: blur(3px);
+}
+
+.link {
+    color: rgb(100, 100, 255);
+}

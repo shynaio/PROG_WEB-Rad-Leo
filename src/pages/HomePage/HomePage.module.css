@@ -1,0 +1,16 @@
+.homePage {
+    margin-top: 4rem;
+
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.noResult {
+    width: 90%;
+    margin-top: 1rem;
+    text-align: left;
+}

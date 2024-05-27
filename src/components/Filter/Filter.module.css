@@ -1,0 +1,35 @@
+.filter {
+    width: 90%;
+    
+    border: 2px solid var(--pokedex-primary-color);
+    border-radius: 100vw;
+
+    padding: .25rem 1.5rem;
+    box-sizing: border-box;
+
+    background-color: #FEFEFE;
+
+    margin-top: 1rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.iconContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: var(--pokedex-primary-color);
+}
+
+.filterInput {
+    width: 100%;
+
+    background-color: transparent;
+
+    border: 0;
+    outline: 0;
+}
