@@ -175,7 +175,7 @@
     },
     {
       "id": "6",
-      "like": 0,
+      "like": 3,
       "name": "Dracaufeu",
       "types": [
         "Fire",
@@ -5501,6 +5501,12 @@
       "author": "Me",
       "content": "J'adore ce pokemon",
       "pokemonId": "1"
+    },
+    {
+      "id": "e1ae",
+      "author": "Me",
+      "content": "I Love it",
+      "pokemonId": "6"
     }
   ]
 }

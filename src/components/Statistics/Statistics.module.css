@@ -1,0 +1,37 @@
+.pokemonStatistics {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.statisticsLine {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    gap: 1rem;
+}
+
+.statisticsLine > div:first-child {
+    font-weight: bold;
+}
+
+progress, progress::-moz-progress-bar, progress::-webkit-progress-value {
+    border-radius: 100vw;
+    height: .75rem;
+    box-shadow: inset 0px 10px 15px -12px rgba(0, 0, 0, 0.3);
+}
+
+progress[color="bad"]::-moz-progress-bar, progress[color="bad"]::-webkit-progress-value {
+    background-color: var(--pokedex-color-bad);
+}
+  
+progress[color="low"]::-moz-progress-bar, progress[color="low"]::-webkit-progress-value {
+    background-color: var(--pokedex-color-low);
+}
+  
+progress[color="ok"]::-moz-progress-bar, progress[color="ok"]::-webkit-progress-value {
+    background-color: var(--pokedex-color-ok);
+}
+  
+progress[color="good"]::-moz-progress-bar, progress[color="good"]::-webkit-progress-value {
+    background-color: var(--pokedex-color-good);
+}

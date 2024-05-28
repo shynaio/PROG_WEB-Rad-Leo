@@ -1,9 +1,11 @@
 import { Link } from 'react-router-dom';
 import s from './Card.module.css'
 
-export const Card = ({imageSrc, title, tags}) => {
+//Component qui permet d'afficher une Card de Pokémon
+export const Card = ({imageSrc, title, tags , linkTo}) => {
 
     return (
+        <Link to={linkTo}>
         <div className={s.card}>
             <div className={s.cardImageContainer}><img className={s.cardImage} src={imageSrc}/></div>
             <div className={s.cardTitle}>{ title }</div>
@@ -13,5 +15,6 @@ export const Card = ({imageSrc, title, tags}) => {
                 })}
             </div>
         </div>
+        </Link>
     );
 }

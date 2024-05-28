@@ -5,6 +5,7 @@ import pokedexLogo from '/img/pokedex.png'
 import s from './Header.module.css';
 import { ROUTES } from '../../routes/routes';
 
+//Component qui permet d'afficher le Header de la page
 export const Header = () => {
     return (
         <div className={s.header}>

@@ -1,3 +1,4 @@
+//Les differentes constantes de couleur utilisées lors de l'affichage des cards
 export const PKMN_TYPES = Object.freeze([
     { name: "normal", color: "#A8A77A" },
     { name: "fighting", color: "#C22E28" },
@@ -21,7 +22,7 @@ export const PKMN_TYPES = Object.freeze([
     { name: "shadow", color: "#705898" },
 ]);
 
-
+//Les differentes constantes utilisées pour les stats des pokemons
 export const MAX_STAT = {
     attack: 130,
     defense: 180,

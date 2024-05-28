@@ -2,6 +2,7 @@ import { Route, Routes, BrowserRouter } from "react-router-dom";
 
 import { HomePage } from "./pages/HomePage/HomePage";
 import { ROUTES } from "./routes/routes";
+import { PokemonPage } from "./pages/PokemonPage/PokemonPage";
 import { NotFoundPage } from "./pages/NotFoundPage/NotFoundPage";
 
 import './App.css'
@@ -14,6 +15,7 @@ const App = () => {
         <BrowserRouter>
             <Routes>
                 <Route element={<HomePage/>} path={ROUTES.index} />
+                <Route element={<PokemonPage/>} path={ROUTES.pokemon + '/:id'} />
                 <Route element={<NotFoundPage/>} path="*" />
             </Routes>
         </BrowserRouter>

@@ -1,0 +1,24 @@
+.comment {
+    width: 100%;
+
+    padding: 1rem;
+    box-sizing: border-box;
+
+    border: 2px solid lightgrey;
+    border-radius: 16px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: .5rem;
+}
+
+.commentContent {
+    text-align: justify;
+}
+
+.commentAuthor {
+    font-size: .8rem;
+    font-weight: bold;
+}

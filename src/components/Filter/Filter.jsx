@@ -3,6 +3,7 @@ import { FaFilter } from "react-icons/fa6";
 
 import s from './Filter.module.css';
 
+//Component qui permet d'afficher la barre de filtre
 export const Filter = ({onChange}) => {
     const filterInput = useRef();
 

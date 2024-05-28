@@ -5,6 +5,7 @@ import { ROUTES } from '../../routes/routes';
 import MissingNo from '/svg/MissingNo.svg'
 import s from './NotFoundPage.module.css';
 
+//Affichage de la page d'erreur d'url
 export const NotFoundPage = () => {
     return (
         <div className={s.pageContainer}>
